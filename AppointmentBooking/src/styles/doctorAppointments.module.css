@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Lato", sans-serif;
+
+    font-size: 17px;
+
+}
+
+.container {
+    display: flex;
+    width: 150vh;
+    font-weight: 600;
+    flex-direction: column;
+
+
+
+}
+
+.loader_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    ;
+}
+
+.main {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.heading {
+    font-family: "lato", sans-serif;
+    font-size: 40px
+}
+
+.imageContainer {
+    display: flex;
+
+    align-items: center;
+    gap: 15px;
+
+}
+
+.userDetails {
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.phone {
+    color: #8a8a8a;
+    font-size: 13px;
+}
+
+.userDetails p {
+    margin: 0;
+    /* Ensure no extra spacing is added */
+
+}
+
+.imageContainer img {
+    border-radius: 500%;
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
+
+
+.tableContainer {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.tableHead th {
+    border-bottom: 1px solid #dddddd;
+
+    font-weight: 800;
+}
+
+.tableContent {
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+
+
+}
+
+tr:hover {
+    cursor: pointer;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+th {
+    height: 70px;
+    padding-right: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+td {
+    padding-right: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+
+}
+
+.doctorButtonAccept {
+    display: flex;
+
+    background-color: rgba(99, 190, 251, 0.436);
+    color: rgb(12, 149, 241);
+
+    justify-content: center;
+    width: 70px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid rgb(0, 153, 255);
+}
+
+.doctorButtonDeny {
+    display: flex;
+
+
+    justify-content: center;
+    width: 70px;
+    font-size: 14px;
+    background-color: rgba(240, 50, 50, 0.212);
+    color: rgb(238, 43, 43);
+    border: 1px solid rgb(238, 43, 43);
+    border-radius: 3px;
+}
+
+.doctorButtons {
+    display: flex;
+    gap: 7px
+}
+
+.doctorButtonResponded {
+    display: flex;
+
+
+    justify-content: center;
+    width: 80px;
+    font-size: 14px;
+    background-color: rgba(88, 88, 88, 0.212);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    border-radius: 3px;
+
+}
